@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Finalizar Compra</h2>
+   <fieldset>
+<legend>Endreçom de Entrega</legend>
+<br>
+<label for="nome">Nome do Destinatário:</label>
+<input type="text" id="nome_obr" name="nome" required>
+<br>
+<br>
+<label for="nascimento">CEP:</label>
+<input type="text" id="nascimento_obr" name="nascimento" placeholder="00000-000" required>
+<br>
+<br>
+<label for="email_usuario">Rua:</label>
+<input type="text" id="email_usuario_obr" name="email_usuario" required>
+<br>
+<br>
+<label for="numero">Número:</label>
+<input type="text" id="numero_obr" name="numero" required>
+<br>
+<br>
+<label for="complemento">Complemento:</label>
+<input type="text" id="complemento_obr" name="complemento" placeholder="Apto, Bloco, Casa..." required>
+</fieldset>
+
+<fieldset>
+    <legend>Opções de Entrega</legend>
+   <label for="">Período de Entrega:</label>
+     <select name="Selecione..." id="Selecione...">
+        <option value="Manhã">Manhã (8h - 12h)</option>
+        <option value="Tarde">Tarde (12h - 18h)</option>
+        <option value="Noite">Noite (18h - 22h)</option>
+     </select>
+     <p>Instruções de entrega:</p>
+     <input type="radio" id="Fr" name="Front-end" value="Front-end">
+    <label for="Fr">Deixar na portaria
+    <br>
+    <input type="radio" id=bk" name="Back-end" value="Back-end">
+    <label for="bk">Entregar em mãos 
+    <br>
+    <input type="radio" id="Ds" name="Desing" value="Desing">
+    <label for="Ds">Ligar ao chegar
+
+    <br><br>
+    <label for="complemento">Cupom de Desconto:</label>
+<input type="text" id="complemento_obr" name="complemento" placeholder="Insira seu cupom" required>
+<br>
+<br>
+<input type="checkbox" id="Receber ofertas por Whatsapp" name="Receber ofertas por Whatsapp" value="Dados">
+    <label for="Receber ofertas por Whatsapp">Receber ofertas por Whatsapp</label>
+ </select>
+  </fieldset>
+</form>
+<br>
+<button type="submit">Finalizar Compra</button>
+</body>
+</html>
